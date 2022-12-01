@@ -33,7 +33,7 @@ const Formulario = () => {
     return (
         <>
             <div className="container mt-5">
-                <h1>Formulario</h1>
+                <h1>Formulario para que lo contactemos:</h1>
                 <form className="row" onSubmit={enviarDatos}>
 
                     <div className="col-8 mb-4">

@@ -1,13 +1,15 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import './contacto.css'
+
 
 
 const Contacto = () => {
     return (
         <CardGroup>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img className='tarjeta' variant="top" src="https://i.postimg.cc/fLKKnBKy/egipto.jpg" />
           <Card.Body>
             <Card.Title>Sucursal Egipto</Card.Title>
             <Card.Text>
@@ -20,7 +22,7 @@ const Contacto = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img className='tarjeta' variant="top" src="https://i.postimg.cc/hP7D05CB/bahamas.jpg" />
           <Card.Body>
             <Card.Title>Sucursal bahamas</Card.Title>
             <Card.Text>
@@ -33,7 +35,7 @@ const Contacto = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img className='tarjeta' variant="top" src="https://i.postimg.cc/jSY63p6K/purgatorio.jpg/100px160" />
           <Card.Body>
             <Card.Title>Sucursal Purgatorio</Card.Title>
             <Card.Text>
