@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,800&family=Nerko+One&display=swap');
+
 .fondo {
-    background-color: red;
-    padding: 50px 0;
-    margin-top: 50px;
+    font-family: 'Nerko One', cursive;
+    font-size: 1.2rem; 
+    font-weight: 600;    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,146,233,0.5634628851540616) 67%, rgba(0,212,255,1) 100%);
+    padding: 50px;
+    height: 90vh;
+    font-size: 2rem;
+    border: 1px solid black;   
+}
+
+.fondo h1 {
+    color: white;    
+    font-size: 3rem;    
+}
+
+.fondo p{
+    color: rgb(63, 248, 26);
+    font-size: 2rem;
 }

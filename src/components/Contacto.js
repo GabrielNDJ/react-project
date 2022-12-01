@@ -1,17 +1,51 @@
 import React from 'react'
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
+
 
 const Contacto = () => {
     return (
-        <div>
-            <h1>Contacto</h1>
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptate. Quisquam, voluptate. Quisquam, voluptate.
-                Quisquam, voluptate. Quisquam, voluptate. Quisquam, voluptate.
-                Quisquam, voluptate. Quisquam, voluptate. Quisquam, voluptate.
-            </p>
-        </div>
+        <CardGroup>
+        <Card>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>Sucursal Egipto</Card.Title>
+            <Card.Text>
+              Nuestra sucursal en Egipto se encuentra en la ciudad de El Cairo, en la calle farahon 777.
+              Encuentranos cerca de Cleopatra.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Telefono: 532252562222</small>
+          </Card.Footer>
+        </Card>
+        <Card>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>Sucursal bahamas</Card.Title>
+            <Card.Text>
+              Nuestra sucursal bahamas se encuentra en la ciudad de Nassau, en la calle 10 de Agosto 123.
+              Encuentranos cerca de la playa.{' '}
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Telefono: 111531666</small>
+          </Card.Footer>
+        </Card>
+        <Card>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>Sucursal Purgatorio</Card.Title>
+            <Card.Text>
+              Nuestra sucursal en Purgatorio se encuentra en la ciudad de Purgatorio, en la calle 666.
+              Encuentranos cerca de la puerta del infierno.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Telefono: 6660000666</small>
+          </Card.Footer>
+        </Card>
+      </CardGroup>
     )
 }
 
