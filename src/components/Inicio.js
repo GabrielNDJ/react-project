@@ -15,7 +15,7 @@ const Inicio = () => {
         <div>
             <div className="row">
                 {products.map(product => (
-                    <div className="col-md-4" key={product.id}>
+                    <div className="col-md-3" key={product.id}>
                         <div class="card" style={{ width: '18rem' }}>
                             <img class="card-img-top" src={product.image} alt={product.title} />
                             <div class="card-body">
